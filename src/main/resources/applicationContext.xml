@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="minusService" class="com.pasichnyk.xmlConfigurationMethod.MinusService"/>
+    <bean id="plusService" class="com.pasichnyk.xmlConfigurationMethod.PlusService"/>
+
+    <bean id="calculator" class="com.pasichnyk.xmlConfigurationMethod.Calculator1">
+        <constructor-arg index="0" ref="minusService"/>
+        <constructor-arg index="1" ref="plusService"/>
+    </bean>
+
+
+</beans>
