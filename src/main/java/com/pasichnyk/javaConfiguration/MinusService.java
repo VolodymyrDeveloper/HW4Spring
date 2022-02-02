@@ -1,4 +1,4 @@
-package com.pasichnyk.javaAndAnnotationMethod;
+package com.pasichnyk.javaConfiguration;
 
 
 public class MinusService {

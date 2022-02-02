@@ -1,4 +1,4 @@
-package com.pasichnyk.xmlConfigurationMethod;
+package com.pasichnyk.xmlConfiguration;
 
 public class MinusService {
 

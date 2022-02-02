@@ -1,11 +1,13 @@
-package com.pasichnyk.xmlConfigurationMethod;
+package com.pasichnyk.javaConfiguration;
 
-public class Calculator1 {
+public class Calculator {
 
     private MinusService minusService;
     private PlusService plusService;
 
-    public Calculator1(MinusService minusService, PlusService plusService) {
+
+    public Calculator(MinusService minusService,
+                      PlusService plusService) {
         this.minusService = minusService;
         this.plusService = plusService;
     }

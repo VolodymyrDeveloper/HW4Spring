@@ -1,17 +1,17 @@
-package com.pasichnyk.xmlAndAnnotationMethod;
+package com.pasichnyk.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("calc")
-public class Calculator2 {
+public class Calculator {
 
     private MinusService minusService;
     private PlusService plusService;
 
     @Autowired
-    public Calculator2(MinusService minusService,
-                       PlusService plusService) {
+    public Calculator(MinusService minusService,
+                      PlusService plusService) {
         this.minusService = minusService;
         this.plusService = plusService;
     }

@@ -1,4 +1,4 @@
-package com.pasichnyk.javaAndAnnotationMethod;
+package com.pasichnyk.javaConfiguration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,7 @@ public class SpringConfig {
     }
 
     @Bean
-    public Calculator3 calculator3() {
-        return new Calculator3(minusService(), plusService());
+    public Calculator calculator3() {
+        return new Calculator(minusService(), plusService());
     }
 }

@@ -1,13 +1,11 @@
-package com.pasichnyk.javaAndAnnotationMethod;
+package com.pasichnyk.xmlConfiguration;
 
-public class Calculator3 {
+public class Calculator {
 
     private MinusService minusService;
     private PlusService plusService;
 
-
-    public Calculator3(MinusService minusService,
-                       PlusService plusService) {
+    public Calculator(MinusService minusService, PlusService plusService) {
         this.minusService = minusService;
         this.plusService = plusService;
     }

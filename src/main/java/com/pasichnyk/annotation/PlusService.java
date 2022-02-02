@@ -1,4 +1,4 @@
-package com.pasichnyk.xmlAndAnnotationMethod;
+package com.pasichnyk.annotation;
 
 import org.springframework.stereotype.Component;
 
